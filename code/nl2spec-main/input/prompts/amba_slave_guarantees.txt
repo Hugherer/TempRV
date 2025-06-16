@@ -1,0 +1,65 @@
+Natural Language: the aircraft should reach the designated position within 30 seconds and complete the bombing task within 60 seconds after receiving the mission
+
+MITL formula: (M → ◇[0,30] R) ∧ (R → ◇[0,60] C)
+
+M: The aircraft has received the mission.
+R: The aircraft reaches the designated position.
+C: The aircraft completes the bombing task.
+
+Task:  Propose 3 to 4 FCQs to examine the translation task from natural language to MITL formulas. If anyone of the answer of FCQs is yes, give a new MITL formula that is better matches natural language.
+
+Example Case Study :
+Example1:
+Natural Language: When providing close air support, aircraft must respond within 5 minutes of calls from ground troops and carry out strikes within the following 10 minutes.
+
+MITL formula:□(Call→◊ [0,5] (Respond∧◊ (0,10] Strike))
+
+FCQ 1: Does the formula ensure that a response must occur within 5 minutes after a call?
+Formula Part:□(Call → ◊[0,5] Respond)
+This part says: Whenever a Call happens, a Respond must occur within the interval [0,5] minutes.
+Answer: Yes, this is correct.
+
+FCQ 2: Does the formula ensure that a strike must occur within 10 minutes after a response?
+Formula Part:□(Call → ◊[0,5] (Respond ∧ ◊(0,10] Strike))
+This means: A Call leads to a Respond within [0,5], and at that moment, a Strike must occur within (0,10] minutes after the Respond.
+Answer: Yes, this is also correct.
+
+FCQ 3: Is the temporal nesting structure accurate in capturing the sequence Call → Respond → Strike with the required timing constraints?
+This means: First, a Call happens. Then, within 5 minutes, a Respond must happen. Immediately after the Respond, a Strike must occur within 10 minutes. This sequence is captured using nested ◊ operators with appropriate time intervals.
+Answer: Yes.
+
+Final Answer:
+Yes, the MITL formula is correct if interpreted as: □(Call → ◊[0,5] (Respond ∧ ◊(0,10] Strike))
+This accurately expresses that:
+
+Example2:
+
+Natural Language: After a fuel warning is triggered, fighter jets  approach the aerial refueling tanker within 5 minutes and complete docking and start refueling procedures in the next 10 minutes, ensuring continuous combat capability within a total of 30 minutes.
+
+MITL formula:□(w→◊[0,5]​a)∧□(d→◊[0,10]​r)∧□(w→◊[0,30]​c)
+
+w: The fuel warning
+a: The aircraft approach the aerial refueling tanker
+d: The aircraft  complete docking
+r: The aircraft start refueling procedures
+c: The aircraft continuous combat capability
+
+FCQ 1: Does the formula ensure that a jet approaches the tanker within 5 minutes after a fuel warning?
+Natural Language: The jet must approach within 5 minutes of warning.
+Formula:  □(warning → ◊[0,5] approach) ensures that every warning leads to an approach within [0,5] minutes.
+Answer: Yes — this matches the requirement.
+
+FCQ 2: Does the formula capture that docking and starting refueling occur within 10 minutes after approaching the tanker?
+Natural Language: Docking and starting refueling must happen within the next 10 minutes after approach.
+Formula: The current formula says:□(dock_start → ◊[0,10] refueling)
+But there is no link between approach and dock_start, so we don't know when dock_start happens relative to approach.
+Problem: The sequence warning → approach → dock_start is not enforced. 
+This means: dock_start could happen before approach, Or long after approach — violating the requirement.
+Answer: No — the formula does not correctly model the sequence or timing between approach and dock_start.
+
+FCQ 3: Is the final combat readiness requirement modeled correctly within 30 minutes from the warning?
+Natural Language: Combat readiness must be restored within 30 minutes after the warning.
+Formula:  □(warning → ◊[0,30] combat_ready) ensures this constraint.
+Answer: Yes — correct.
+
+To accurately reflect the natural language requirement: □(w → ◊[0,5] a) ∧ □(a → ◊(0,10] (d ∧ r))) ∧ □(w → ◊[0,30] c)

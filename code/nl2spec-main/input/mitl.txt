@@ -1,0 +1,1 @@
+The aircraft should reach the designated position within 30 seconds and complete the bombing task within 60 seconds after receiving the mission.

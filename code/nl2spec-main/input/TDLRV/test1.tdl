@@ -1,0 +1,60 @@
+message J22
+	data label {position=2; length=5; value=2;}
+	data sublabel {position=7; length=3; value=2;}
+
+	event message_num {(message_number>message_count);}
+end
+
+message J31
+	data label {position=2; length=5; value=3;}
+	data sublabel {position=7; length=3; value=1;}
+	data personnel_involved {position=38; length=4;}
+	data emergency_type {position=47; length=4;}
+	data track_number_reference {position=19; length=19;}
+	data track_number_previously {position=51; length=19;}
+
+	event man_in_water {(emergency_type=0);}
+	event has_personnel {(personnel_involved>0);}
+end
+
+message J70
+	data label {position=2; length=5; value=7;}
+	data sublabel {position=7; length=3; value=0;}
+
+	event message_num {(message_number>message_count);}
+end
+
+message J102
+	data label {position=2; length=5; value=10;}
+	data sublabel {position=7; length=3; value=2;}
+
+	event message_num {(message_number>message_count);}
+end
+
+message J120
+	data label {position=2; length=5; value=12;}
+	data sublabel {position=7; length=3; value=0;}
+	data Track_number_addressee {position=13; length=15;}
+	data Mission_assignment_discrete {position=28; length=6;}
+	data Track_number_objective {position=39; length=19;}
+
+	event track_num {(Track_number_addressee!=Track_number_addressee);}
+end
+
+message J150
+	data label {position=2; length=5; value=15;}
+	data sublabel {position=7; length=3; value=0;}
+
+	event message_num {(message_number>message_count);}
+end
+
+message J2820
+	data label {position=2; length=5; value=28;}
+	data sublabel {position=7; length=3; value=2;}
+	data message_number {position=21; length=8;}
+	data message_count {position=29; length=8;}
+
+	event message_num {(message_number>message_count);}
+end
+
+property p1 Globally(!man_in_water || has_personnel)

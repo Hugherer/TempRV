@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<template>
+		<name>a_to_b</name>
+		<declaration>here we need to know something</declaration>
+		<location>id1</location>
+		<location>id2</location>
+		<location>id3</location>
+		<trasition>
+			<from x="5" y="5">id1</from>
+			<to>id2</to>
+			<action>a</action>
+			<time>x &gt; 30</time>
+		</trasition>
+		<trasition>
+			<from x="5" y="5">id1</from>
+			<to>id3</to>
+			<action>b</action>
+			<time>x &lt; 10</time>
+		</trasition>
+		<trasition>
+			<from x="5" y="5">id2</from>
+			<to>id3</to>
+			<action>a</action>
+			<time>x &gt; 15</time>
+		</trasition>
+	</template>

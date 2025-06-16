@@ -1,0 +1,1 @@
+../build/src/monitaal-bin/MoniTAal-bin -p property ./TARV.xml -n assumption ./TARV.xml -i ./input_trace.txt

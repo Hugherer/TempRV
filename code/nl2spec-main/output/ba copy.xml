@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nta>
+	<declaration>
+
+broadcast chan a, b, c, d, m;
+
+clock x;</declaration>
+	<template>
+		<name>property</name>
+		<location id="id0">
+			<name>q0</name>
+		</location>
+		<location id="id1">
+			<name>q1</name>
+		</location>
+		<location id="id2">
+			<name>q2_a</name>
+		</location>
+		<init ref="id0"/>
+		<transition>
+			<source ref="id0"/>
+			<target ref="id1"/>
+			<label kind="synchronisation">a!</label>
+			<label kind="assignment">x := 0</label>
+		</transition>
+		<transition>
+			<source ref="id1"/>
+			<target ref="id2"/>
+			<label kind="synchronisation">b!</label>
+			<label kind="guard">x &gt;= 0 &amp;&amp; x &lt;= 70 </label>
+		</transition>
+		<transition>
+			<source ref="id2"/>
+			<target ref="id2"/>
+			<label kind="synchronisation">a!</label>
+		</transition>
+	</template>
+	<template>
+		<name>assumption</name>
+		<location id="id3">
+			<name>q0</name>
+		</location>
+		<location id="id4">
+			<name>q1</name>
+		</location>
+		<location id="id5">
+			<name>q2_a</name>
+		</location>
+		<init ref="id3"/>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id4"/>
+			<label kind="synchronisation">a!</label>
+			<label kind="assignment">x := 0</label>
+		</transition>
+		<transition>
+			<source ref="id4"/>
+			<target ref="id5"/>
+			<label kind="synchronisation">b!</label>
+			<label kind="guard">x &gt;= 5 &amp;&amp; x &lt;= 10</label>
+		</transition>
+		<transition>
+			<source ref="id5"/>
+			<target ref="id5"/>
+			<label kind="synchronisation">a!</label>
+		</transition>
+	</template>
+</nta>

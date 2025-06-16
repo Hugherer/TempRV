@@ -1,0 +1,1 @@
+The mission assignment message should include a value of mission assignment discrete, i.e., mission assignment discrete should not be No Statement
