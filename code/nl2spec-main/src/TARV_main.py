@@ -9,8 +9,8 @@ import xml.etree.ElementTree as ET
 
 '''
 here we have to use:
-export PATH=$PATH:/home/hugh/desktop/02Paper-TARV/TDLRV
-export PATH=$PATH:/home/hugh/desktop/02Paper-TARV/TA_RV_Predictor/build/src/monitaal-bin
+export PATH=$PATH:~/TDLRV
+export PATH=$PATH:~/TA_RV_Predictor/build/src/monitaal-bin
 '''
 
 def trace_trans(trace, time_file):
