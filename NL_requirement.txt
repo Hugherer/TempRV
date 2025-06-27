@@ -1,4 +1,147 @@
 {
-  "Natural Language" : "",
-  "MITL formula" : ""
-},
+  {
+    "Natural Language" : "Preparation for Takeoff: The aircraft completes all pre-takeoff preparations within 5 minutes of receiving an urgent task."
+  },
+  {
+    "Natural Language" : "Quick Response: Fighter jets take off within 3 minutes of receiving support requests from ground troops."
+  },
+  {
+    "Natural Language" : "Intelligence Transmission: Reconnaissance aircraft must send intelligence to the command center via data link within 5 minutes of detecting enemy activity."
+  },
+  {
+    "Natural Language" : "Night Operation Start: Aircraft performing night reconnaissance should arrive at designated positions 30 minutes before sunset."
+  },
+  {
+    "Natural Language" : "Landing Preparation: Transport aircraft begin descent and landing preparation 10 minutes before their expected arrival at the destination."
+  },
+  {
+    "Natural Language" : "Evacuation Initiation: Upon receiving evacuation orders, rescue helicopters must be ready for takeoff within 10 minutes."
+  },
+  {
+    "Natural Language" : "Fuel Check: During long-haul flights, aircraft perform a fuel status check every hour."
+  },
+  {
+    "Natural Language" : "Weather Assessment: When encountering bad weather, aircraft need to adjust course or seek shelter 20 minutes before conditions worsen."
+  },
+  {
+    "Natural Language" : "Electronic Warfare Activation: During electronic warfare missions, aircraft activate jamming equipment within 5 minutes of receiving instructions."
+  },
+  {
+    "Natural Language" : "Target Confirmation: For high-value targets, aircraft complete attack plans within 10 minutes of identifying the target."
+  },
+  {
+    "Natural Language" : "Deployment of Defensive Measures: Upon encountering potential threats, aircraft must activate defensive measures within 5 minutes and adjust their route to avoid danger in the next 10 minutes."
+  },
+  {
+    "Natural Language" : "Synchronization for Joint Exercises: Aircraft participating in joint exercises must arrive at assembly points according to precise schedules and synchronize with allied forces within specific time windows."
+  },
+  {
+    "Natural Language" : "Emergency Medical Evacuation: Within 30 minutes of receiving medical evacuation requests, medevac transport aircraft must be prepared and take off for the accident site, then complete patient transfer within 1 hour of arrival."
+  },
+  {
+    "Natural Language" : "Supply Drop: From receiving drop orders to executing the supply drop mission, transport aircraft must complete all preparations within 30 minutes."
+  },
+  {
+    "Natural Language" : "Intelligence Analysis and Feedback: After gathering intelligence, reconnaissance aircraft must conduct preliminary analysis and provide feedback to the command center via data link within 15 minutes."
+  },
+  {
+    "Natural Language" : "Close Air Support: When providing close air support, aircraft must respond within 5 minutes of calls from ground troops and carry out strikes within the following 10 minutes."
+  },
+  {
+    "Natural Language" : "Navigation Calibration: In special environments like polar regions or mountains, aircraft need to calibrate navigation systems every 2 hours to ensure accuracy."
+  },
+  {
+    "Natural Language" : "Personnel Evacuation Assurance: During personnel evacuation missions, the time between landing and taking off again must not exceed 20 minutes."
+  },
+  {
+    "Natural Language" : "Multi-Wave Strike Mission: After a successful first strike, aircraft must prepare for a second strike within 30 minutes and adjust strike plans based on real-time intelligence."
+  },
+  {
+    "Natural Language" : "Long-Term Missions in Extreme Environments: When conducting long-term missions in extreme environments such as polar regions or deserts, aircraft must develop detailed daily action plans and ensure each phase is completed within strict time frames."
+  },
+  {
+    "Natural Language" : "Aerial Refueling Docking: After a fuel warning is triggered, fighter jets  approach the aerial refueling tanker within 5 minutes and complete docking and start refueling procedures in the next 10 minutes, ensuring continuous combat capability within a total of 30 minutes."
+  },
+  {
+    "Natural Language" : "Comprehensive Rescue Operations: Upon receiving complex rescue requests, aircraft must complete all preparations, including coordinating with other rescue forces, within 45 minutes and immediately commence operations upon arrival."
+  },
+  {
+    "Natural Language" : "Cross-Regional Joint Operations: Aircraft involved in cross-regional joint operations must flexibly adjust operational plans based on dynamic battlefield situations and ensure reaching optimal tactical positions within predetermined times."
+  },
+  {
+    "Natural Language" : "Multi-Level Intelligence Collection and Analysis: During multi-level intelligence collection missions, aircraft must process information in real-time and submit initial analysis reports to the command center within 1 hour."
+  },
+  {
+    "Natural Language" : "Coordinated Electronic Warfare and Physical Strikes: During coordinated electronic warfare and physical strike missions, aircraft must complete physical strikes within 15 minutes after initiating electronic interference while maintaining continuous electronic countermeasures."
+  },
+  {
+    "Natural Language" : "High-Risk Zone Infiltration: To execute infiltration missions into high-risk zones, aircraft must enter stealth mode within 1 hour of takeoff and penetrate enemy air defense networks within the next 30 minutes."
+  },
+  {
+    "Natural Language" : "Search and Rescue Operations in Complex Terrain: When conducting search and rescue missions in complex terrains, aircraft must determine search areas within 2 hours of receiving distress signals and complete initial searches within the next 24 hours."
+  },
+  {
+    "Natural Language" : "High Mobility Task Switching: During highly mobile missions, aircraft must switch from one mission mode to another (e.g., from reconnaissance to strike) within 15 minutes and immediately execute the new task."
+  },
+  {
+    "Natural Language" : "Emergency Evacuations in Extreme Weather: During emergency evacuations under extreme weather conditions, aircraft must be ready and take off within 1 hour of notification, continuously adjusting flight paths en route to cope with changing weather conditions."
+  },
+  {
+    "Natural Language" : "Long Duration Continuous Surveillance and Strikes: During long-duration continuous surveillance and strike missions, aircraft must complete the first strike within 20 minutes of initially locating the target and repeat strikes every 2 hours until the mission ends."
+  },
+  {
+    "Natural Language" : "Emergency Departure Preparation: The ship must complete all pre-departure checks and depart within 30 minutes of receiving an emergency combat order."
+  },
+  {
+    "Natural Language" : "Communication System Activation: In a state of readiness, the ship must activate and test its primary communication systems within 5 minutes."
+  },
+  {
+    "Natural Language" : "Radar Activation and Calibration: Before entering the combat zone, the ship must complete radar activation and basic calibration within 10 minutes."
+  },
+  {
+    "Natural Language" : "Weapon System Readiness: Upon receiving a battle alert, the ship must place its main weapon systems on standby within 15 minutes."
+  },
+  {
+    "Natural Language" : "Navigation Route Update: After receiving new route instructions, the ship must update the navigation system and adjust course within 5 minutes."
+  },
+  {
+    "Natural Language" : "Night Operation Preparation: Ships conducting night patrols must prepare night vision and lighting systems 30 minutes before sunset."
+  },
+  {
+    "Natural Language" : "Air Defense Reaction Window: When detecting an airborne threat, the ship must identify the target within 2 minutes and initiate interception procedures within 5 minutes."
+  },
+  {
+    "Natural Language" : "Anti-Submarine Response Procedure: After sonar detects a suspicious underwater signal, the ship must deploy towed sonar and begin tracking within 10 minutes."
+  },
+  {
+    "Natural Language" : "At-Sea Replenishment Docking: Once the supply ship is in position, the receiving vessel must approach and begin refueling operations within 15 minutes."
+  },
+  {
+    "Natural Language" : "Synchronization for Joint Exercises: Ships participating in multinational joint exercises must arrive at assembly points within a specific time window with no more than a 5-minute deviation."
+  },
+  {
+    "Natural Language" : "Personnel Evacuation Coordination: After receiving a casualty transfer request, the ship must reach the location within 1 hour and complete medical evacuation within 30 minutes."
+  },
+  {
+    "Natural Language" : "Electronic Jamming Response: Upon encountering enemy electronic jamming, the ship must switch to backup communication methods and restore command links within 10 minutes."
+  },
+  {
+    "Natural Language" : "Cross-Sea Area Rapid Deployment: Upon receiving a cross-sea area movement order, the ship must transit through multiple operational zones within 48 hours while maintaining real-time situational awareness throughout each leg."
+  },
+  {
+    "Natural Language" : "Coordinated Strike and Defense: While executing a long-range missile strike, the ship must establish an air defense shield within 15 minutes after launching to counter potential enemy retaliation."
+  },
+  {
+    "Natural Language" : "Tactical Maneuvering in Extreme Weather: In response to sudden bad weather, the ship must plan and execute a tactical evasion route within 30 minutes and maintain combat readiness for the next 2 hours."
+  },
+  {
+    "Natural Language" : "Multi-Platform Information Fusion and Response: After receiving intelligence from aircraft, submarines, and satellites, the ship must integrate and analyze the data within 20 minutes and make tactical decisions."
+  },
+  {
+    "Natural Language" : "High-Risk Zone Penetration and Reconnaissance: After entering a high-risk maritime zone, the ship must complete covert navigation within 2 hours and perform target reconnaissance without revealing its identity."
+  },
+  {
+    "Natural Language" : "Extended Maritime Blockade and Rotation: A ship conducting a maritime blockade must remain on station for 72 consecutive hours and complete mission handover with the replacement vessel within 30 minutes before departure."
+  }
+}
+
